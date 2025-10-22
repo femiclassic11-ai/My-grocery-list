@@ -1,0 +1,170 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* BODY STYLING */
+body {
+    background: linear-gradient(135deg, #a7ffeb, #0cca2c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* MAIN CONTAINER */
+.container {
+    background: #000000;
+    padding: 30px 25px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 10px 25px rgba(82, 77, 77, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-3px);
+}
+
+/* HEADINGS */
+h1 {
+    text-align: center;
+    color: #0bf11a;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.theme {
+    text-align: center;
+    color: #666;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+/* INPUT SECTION */
+.input-part {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.input-part input {
+    padding: 12px;
+    border: 2px solid #0bf11a;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.input-part input:focus {
+    border-color: #0bf11a;
+    box-shadow: 0 0 5px rgba(0, 172, 193, 0.5);
+}
+
+/* BUTTON SECTION */
+.button-part {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    flex: 1;
+    margin: 0 5px;
+    background: #0bf11a;;
+    color: white;
+    border: none;
+    padding: 12px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #000000;
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* LIST SECTION */
+.list-part {
+    margin-top: 25px;
+}
+
+.list-title {
+    font-weight: 700;
+    color: #0bf11a;;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.grocery-list {
+    list-style: none;
+    max-height: 180px;
+    overflow-y: auto;
+}
+
+.grocery-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e0f7fa;
+    margin: 6px 0;
+    padding: 10px 12px;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #04e93d;
+    transition: 0.3s;
+}
+
+.grocery-list li:hover {
+    background: #b2ebf2;
+    transform: translateX(3px);
+}
+
+/* DELETE BUTTON */
+.delete-btn {
+    background: #ff5252;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 5px 8px;
+    font-size: 13px;
+    transition: all 0.3s ease;
+}
+
+.delete-btn:hover {
+    background: #d32f2f;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(211, 47, 47, 0.4);
+}
+
+/* TOTAL SECTION */
+.total-part {
+    margin-top: 25px;
+    text-align: center;
+    background: #06fc2f;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+#groceryList {
+    display: none;
+}
+
+
+
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocerieslist</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <center>
+    <div class="container">
+    <h1>🛒My Grocery List</h1>
+    <p class="theme">Check and track your grocery items</p>
+
+    <!--input part-->
+    <div class="input-part">
+        <input type="text" id="itemInput" placeholder="Enter item (e.g., rice)..." autocomplete="off"/>
+        <input type="number" id="priceInput" placeholder="price"/>
+
+    </div>
+
+    <!--button-->
+    <div class="button-part">
+        <button id="addButton">Add Item</button>
+        <button id="totalButton">Calculate Total</button>
+    </div>
+
+   <!--list part-->
+    <div class="list-part">
+        <div class="list-title">Your items</div>
+        <ul class="grocery-list" id="groceryList"></ul>
+    </div>
+    <!--total section-->
+    <div class="total-part" id="totalPart" style="display: none;">
+        <div class="total-label">Total Price</div>
+        <div class="total-amount" id="totalAmount">0.00</div>
+    </div>
+    </div>
+    </center>
+    <script src="./script.js"></script>
+</body>
+</html>
