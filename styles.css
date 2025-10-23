@@ -164,6 +164,94 @@ button:hover {
 #groceryList {
     display: none;
 }
+/* ================================
+   RESPONSIVE DESIGN
+   ================================ */
+
+/* For tablets and smaller laptops */
+@media (max-width: 992px) {
+    .container {
+        max-width: 600px;
+        padding: 25px 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .input-part input {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 600px) {
+    body {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 20px 15px;
+        border-radius: 15px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .theme {
+        font-size: 13px;
+        margin-bottom: 18px;
+    }
+
+    .input-part {
+        gap: 10px;
+    }
+
+    .input-part input {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .button-part {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    button {
+        width: 100%;
+        margin: 0;
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .grocery-list li {
+        font-size: 14px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+    }
+
+    .delete-btn {
+        align-self: flex-end;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .total-part {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
 
 
 
