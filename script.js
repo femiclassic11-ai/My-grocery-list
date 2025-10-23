@@ -2,7 +2,7 @@
 
 const groceryItems = [];
 
-///prints
+///inputs and button id's
 const itemInput = document.getElementById("itemInput");
 const priceInput = document.getElementById("priceInput");
 const addButton = document.getElementById("addButton");
