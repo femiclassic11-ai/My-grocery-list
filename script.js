@@ -1,15 +1,6 @@
 ///to store grocery items
 
-const groceryItems = [
-    {name: "rice", price: 1500},
-    {name: "beans", price: 1500},
-    {name: "plantain", price: 2000},
-    {name: "spaghetti", price: 1000},
-    {name: "pasta", price: 1500},
-    {name: "semo", price: 7500},
-    {name: "garri", price: 2500},
-    
-];
+const groceryItems = [];
 
 ///inputs and button id's
 const itemInput = document.getElementById("itemInput");
