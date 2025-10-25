@@ -24,7 +24,7 @@ function renderList() {
         listItem.innerHTML = `
         <div class="item-info">
         <div class="item-name">${item.name}</div>
-        <div class="item-price">${item.price.toFixed(2)}</div>
+        <div class="item-price$">${item.price.toFixed(2)}</div>
         </div>
         <button class="delete-button" onclick="deleteItem(${index})">Delete</button>
         `;
